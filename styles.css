@@ -1,0 +1,132 @@
+header {
+  text-align: center;
+  color: black;
+  border: 1px dotted black;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+  background-color: #3349FF;
+}
+
+.colors {
+  text-align: center;
+  border: 1px dotted black;
+}
+
+.colors li {
+  border: 1px solid black;
+  display: inline-block;
+  font-weight: normal;
+  font-size: 18px;
+  height: 60px;
+  width: 30%;
+  padding-top: 18px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.2;
+}
+
+#light-green {
+  background-color: #33FF7F;
+}
+
+#cool-purple {
+  background-color: #9133FF;
+}
+
+#cool-blue {
+  background-color: #3398FF;
+}
+
+#light-orange {
+  background-color: #FF6933;
+}
+
+#strong-green {
+  background-color: #3CFF33;
+}
+
+#aqua-blue {
+  background-color: #33FFEC;
+}
+
+.fonts {
+  text-align: center;
+  border: 1px dotted black;
+}
+
+.font-styles {
+  text-decoration: underline;
+  font-weight: normal;
+  width: 100%;
+  background-color: #FFBE33;
+}
+
+#thin-100-italic {
+  font-family: "Sofia Sans", serif;
+  font-weight: 100;
+}
+
+#thin-300-italic {
+    font-family: "Sofia Sans", serif;
+  font-weight: 300;
+}
+
+#regular-400-italic {
+    font-family: "Sofia Sans", serif;
+  font-weight: 400;
+}
+
+#regular-400 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+#extrabold-800 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+}
+
+#lora-regular-400 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+}
+
+.text-styles {
+  text-align: center;
+  border: 1px dotted black;
+}
+
+.text-styles li {
+  text-align: left;
+}
+
+#h1-main-headings {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Times New Roman", serif;
+  text-decoration: underline;
+  width: 100%;
+  background-color: #FFBE33;
+}
+
+#h2-subheading {
+  text-decoration: underline;
+  width: 100%;
+  background-color: #FFBE33;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Times New Roman", serif;
+}
+
+#paragraph-text {
+  text-decoration: underline;
+  width: 100%;
+  background-color: #FFBE33;
+  font-weight: normal;
+  font-size: 17px;
+  font-family: "Times New Roman", serif;
+}
