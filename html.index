@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Website Style Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@400;800&family=Sofia+Sans:ital,wght@1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <header>
+    <h1>My website style guide, January 2023</h1>
+  </header>
+
+  <body>
+    <div class="colors">
+      <h1 class="title">Colors</h1>
+      <ul>
+        <li id="light-green">
+          Light Green <br />
+          #33FF7F
+        </li>
+        <li id="cool-purple">
+          Cool Purple <br />
+          #9133FF
+        </li>
+        <li id="cool-blue">
+          Cool Blue <br />
+          #3398FF
+        </li>
+        <li id="light-orange">
+          Light Orange <br />
+          #FF6933
+        </li>
+        <li id="strong-green">
+          Strong Green <br />
+          #3CFF33
+        </li>
+        <li id="aqua-blue">
+          Aqua Blue <br />
+          #33FFEC
+        </li>
+      </ul>
+    </div>
+    ~
+
+    <div class="fonts">
+      <h1 class="title">Fonts</h1>
+      <h1 class="font-styles">Sofia Sans</h1>
+      <h2 id="thin-100-italic">
+        Thin 100 Italic <br />
+        - Footnotes / Additional info
+      </h2>
+
+      <h2 id="thin-300-italic">
+        Thin 300 Italic <br />- Key footnotes / Additional info
+      </h2>
+      <h2 id="regular-400-italic">
+        Regular 400 Italic <br />- Italic Emphasis
+      </h2>
+      <h1 class="font-styles">Roboto Slab</h1>
+      <h2 id="regular-400">Regular 400<br />- Font Alternative</h2>
+      <h2 id="extrabold-800">Extrabold 800<br />- Bold Emphasis</h2>
+
+      <h1 class="font-styles">Lora</h1>
+      <h2 id="lora-regular-400">Regular 400<br />- Softer Font alternative</h2>
+    </div>
+
+    <div class="text-styles">
+      <h1 class="title">Text Styles</h1>
+      <h1 id="h1-main-headings">H1 main headings</h1>
+      <ul>
+        <li>font-weight: bold;</li>
+        <li>font-size: 40px;</li>
+        <li>font-family: "Times New Roman", serif;</li>
+      </ul>
+
+      <h2 id="h2-subheading">H2 Subheading</h2>
+      <ul>
+        <li>font-weight: 600;</li>
+        <li>font-size: 20px;</li>
+        <li>font-family: "Times New Roman", serif;</li>
+      </ul>
+
+      <p id="paragraph-text">Paragraph Text</p>
+      <ul>
+        <li>font-weight: normal;</li>
+        <li>font-size: 17px;</li>
+        <li>font-family: "Times New Roman", serif;</li>
+      </ul>
+    </div>
+  </body>
+</html>
